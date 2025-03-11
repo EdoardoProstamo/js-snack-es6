@@ -7,32 +7,39 @@
 const squadra = [
     {
         nome: 'Inter',
-        pt: '93',
-        fouls: '114'
+        pt: '0',
+        fouls: '0'
     },
     {
         nome: 'Juventus',
-        pt: '76',
-        fouls: '92'
+        pt: '0',
+        fouls: '0'
     },
     {
         nome: 'Milan',
-        pt: '54',
-        fouls: '43'
+        pt: '0',
+        fouls: '0'
     },
     {
         nome: 'Roma',
-        pt: '69',
-        fouls: '74'
+        pt: '0',
+        fouls: '0'
     },
     {
         nome: 'Lazio',
-        pt: '91',
-        fouls: '111'
+        pt: '0',
+        fouls: '0'
     },
     {
         nome: 'Catania',
-        pt: '50',
-        fouls: '30'
+        pt: '0',
+        fouls: '0'
     }
-]
+];
+
+//generare numeri random per punti e falli
+
+for (let i=0; i < squadra.length; i++) {
+    const currentSquad = squadra[i];
+    console.log(currentSquad);
+}
