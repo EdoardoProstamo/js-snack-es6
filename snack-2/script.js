@@ -43,4 +43,8 @@ for (let i=0; i < squadra.length; i++) {
     const currentSquad = squadra[i];
     
     currentSquad.pt = Math.floor(Math.random() * 100);
+    currentSquad.fouls = Math.floor(Math.random() * 100);
 }
+
+// Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
+const result = [];
