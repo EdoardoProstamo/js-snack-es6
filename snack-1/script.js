@@ -29,3 +29,9 @@ const bicicletta = [
         peso: '11'
     }
 ];
+
+//accedo al valore all'interno dell'oggetto
+
+//peso minore
+let min = bicicletta[2]['peso'];
+
