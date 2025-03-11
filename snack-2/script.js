@@ -41,5 +41,6 @@ const squadra = [
 
 for (let i=0; i < squadra.length; i++) {
     const currentSquad = squadra[i];
-    console.log(currentSquad);
+    
+    currentSquad.pt = Math.floor(Math.random() * 100);
 }
