@@ -34,11 +34,16 @@ const bicicletta = [
 
 //peso minore
 let min = bicicletta[0]['peso'];
+let minBici = bicicletta[0]; 
 
 for (let i=1; i < bicicletta.length; i++) {
     const currentBici = bicicletta[i];
 
     if(min > currentBici.peso) {
         min = currentBici.peso;
+        minBici = currentBici;
     }
 }
+
+console.log(min);
+console.log(minBici);
