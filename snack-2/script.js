@@ -53,4 +53,13 @@ const result = [];
 for (let i=0; i < squadra.length; i++) {
 
     const currentSquad = squadra[i];
+
+    const newRisultato = {
+        nome: currentSquad.nome,
+        fouls: currentSquad.fouls
+    }
+
+    result.push(newRisultato);
 }
+
+console.log(result);
