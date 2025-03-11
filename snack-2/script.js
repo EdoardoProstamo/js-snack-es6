@@ -40,6 +40,7 @@ const squadra = [
 //generare numeri random per punti e falli
 
 for (let i=0; i < squadra.length; i++) {
+
     const currentSquad = squadra[i];
     
     currentSquad.pt = Math.floor(Math.random() * 100);
@@ -48,3 +49,8 @@ for (let i=0; i < squadra.length; i++) {
 
 // Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
 const result = [];
+
+for (let i=0; i < squadra.length; i++) {
+
+    const currentSquad = squadra[i];
+}
