@@ -33,5 +33,9 @@ const bicicletta = [
 //accedo al valore all'interno dell'oggetto
 
 //peso minore
-let min = bicicletta[2]['peso'];
+let min = bicicletta[0]['peso'];
 
+for (let i=0; i < bicicletta.length; i++) {
+    const currentBici = bicicletta[i];
+    console.log(currentBici);
+}
